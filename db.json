@@ -1,0 +1,54 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "image": "https://cdn.pixabay.com/photo/2022/04/27/07/19/game-7159836_960_720.jpg",
+            "nome": "name ERT",
+            "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+            "preco": 25.0, 
+            "categoria_id": 1  
+        },
+        {
+            "id": 2,
+            "image": "https://cdn.pixabay.com/photo/2017/04/10/12/18/joystick-2218353_1280.jpg",
+            "nome": "Name CEVG",
+            "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+            "preco": 30.0,  
+            "categoria_id": 1  
+        },
+        {
+            "id": 3,
+            "image": "https://cdn.pixabay.com/photo/2021/02/16/18/55/gamer-6022003_1280.png",
+            "nome": "Name LVRF",
+            "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+            "preco": 35.0,  
+            "categoria_id": 2  
+        },
+        {
+            "id": 4,
+            "image": "https://cdn.pixabay.com/photo/2024/01/25/06/56/ai-generated-8531090_1280.png",
+            "nome": "Name QWE",
+            "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+            "preco": 40.0,  
+            "categoria_id": 2  
+        },
+        {
+            "id": 5,
+            "image": "https://cdn.pixabay.com/photo/2024/01/25/06/56/ai-generated-8531091_640.png",
+            "nome": "Name BGT",
+            "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+            "preco": 45.0,  
+            "categoria_id": 1  
+        }
+    ],
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Categoria A"
+        },
+        {
+            "id": 2,
+            "nome": "Categoria B"
+        }
+    ]
+}
