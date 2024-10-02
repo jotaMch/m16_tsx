@@ -13,6 +13,7 @@ import {
     Stack,
     Text,
 } from '@chakra-ui/react';
+import { ButtonComponent } from '../button/Button';
 
 interface Product {
     id: number;
@@ -64,11 +65,18 @@ const Products: React.FC = () => {
                     </CardBody>
                     <Divider />
                     <CardFooter>
-                        <ButtonGroup spacing="2">
-                            <Button variant="solid" colorScheme="blue">
-                                Comprar agora
-                            </Button>
-                        </ButtonGroup>
+                    <ButtonComponent 
+                        text="Enviar" 
+                        w="200px" 
+                        h="50px" 
+                        bgColor="green" 
+                        color="#fff" 
+                        fontSize="18px" 
+                        b="none" 
+                        margin='20px 0'
+                        br="12px"
+                        
+                    />
                     </CardFooter>
                 </Card>
             ))}

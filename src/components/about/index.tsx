@@ -20,7 +20,7 @@ const About: React.FC = () => {
                 boxShadow="dark-lg"
                 rounded="xl"
                 w={['100%', '80%', '70%']}
-                h={['100%', 60, 80]}
+                h={[150, 60, 80]}
                 mx={[0, 'auto', 'auto']}
                 src="https://cdn.pixabay.com/photo/2021/10/07/20/46/playstation-6689793_1280.jpg"
                 alt="Dan Abramov"
