@@ -56,9 +56,3 @@ Componente que exibe informações de rodapé.
 
 Header.jsx
 Componente que exibe o cabeçalho da página com opções de navegação e botões de ação.
-
-Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-Contato
-Se você tiver alguma dúvida, sinta-se à vontade para entrar em contato pelo e-mail: seuemail@example.com.
