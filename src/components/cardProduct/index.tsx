@@ -44,7 +44,7 @@ const Products: React.FC = () => {
     }, []);
 
     return (
-        <Flex gap={{ base: 4, md: 4, lg: 4 }} wrap={'wrap'}>
+        <Flex gap={{ base: 4, md: 4, lg: 4 }} wrap={'wrap'} data-testid="products-container">
             {products.map((item) => (
                 <Card key={item.id} w={{ base: '100%', md: 100, lg: '31.3%' }}>
                     <CardBody>
@@ -64,19 +64,20 @@ const Products: React.FC = () => {
                         </Stack>
                     </CardBody>
                     <Divider />
+                    
                     <CardFooter>
-                    <ButtonComponent 
-                        text="Enviar" 
-                        w="200px" 
-                        h="50px" 
-                        bgColor="green" 
-                        color="#fff" 
-                        fontSize="18px" 
-                        b="none" 
-                        margin='20px 0'
-                        br="12px"
-                        
-                    />
+                        <ButtonComponent 
+                            text="Enviar" 
+                            w="200px" 
+                            h="50px" 
+                            bgColor="green" 
+                            color="#fff" 
+                            fontSize="18px" 
+                            b="none" 
+                            margin='20px 0'
+                            br="12px"
+                            
+                        />
                     </CardFooter>
                 </Card>
             ))}
